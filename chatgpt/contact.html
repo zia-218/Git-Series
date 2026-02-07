@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HealthHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">💚 HealthHub</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-header">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Reach out to us for any inquiries or to start your wellness journey.</p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-card">
+                    <h3>📍 Address</h3>
+                    <p>HealthHub Wellness Center<br>
+                    123 Health Street<br>
+                    Medical Plaza, NY 10001<br>
+                    United States</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>📞 Phone</h3>
+                    <p>Main: +1 (555) 123-4567<br>
+                    Fitness: +1 (555) 123-4568<br>
+                    Nutrition: +1 (555) 123-4569<br>
+                    Emergency: +1 (555) 123-4570</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>📧 Email</h3>
+                    <p>General Inquiries: info@healthhub.com<br>
+                    Support: support@healthhub.com<br>
+                    Appointments: appointments@healthhub.com<br>
+                    Feedback: feedback@healthhub.com</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>🕑 Business Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                    Saturday: 9:00 AM - 4:00 PM<br>
+                    Sunday: 10:00 AM - 2:00 PM<br>
+                    Holidays: Closed</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>🌐 Follow Us</h3>
+                    <p>Facebook: @HealthHub<br>
+                    Instagram: @HealthHub_Wellness<br>
+                    Twitter: @HealthHubCare<br>
+                    LinkedIn: HealthHub Inc</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h2>Send us a Message</h2>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="appointment">Book an Appointment</option>
+                            <option value="fitness">Fitness Program</option>
+                            <option value="nutrition">Nutrition Counseling</option>
+                            <option value="mental">Mental Health Support</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Please write your message here..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">I agree to the privacy policy and terms of service</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section">
+            <h2>Visit Our Center</h2>
+            <p>Located in the heart of the Medical Plaza, easily accessible by all transportation modes.</p>
+            <div class="map-placeholder">
+                <p>🗺️ HealthHub Wellness Center Location</p>
+                <p>123 Health Street, Medical Plaza, NY 10001</p>
+                <p style="font-size: 14px; margin-top: 10px; color: #666;">Interactive map would be displayed here</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I book an appointment?</h3>
+                    <p>You can book an appointment by calling us, emailing appointments@healthhub.com, or submitting the contact form with your preferred date and time.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is your cancellation policy?</h3>
+                    <p>Cancellations made 24 hours in advance receive a full refund. Late cancellations may incur a small fee.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer online consultations?</h3>
+                    <p>Yes, we offer virtual consultations for fitness coaching, nutrition counseling, and mental health support via video call.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What insurance do you accept?</h3>
+                    <p>We accept most major insurance plans. Please contact us directly to confirm if your insurance is accepted.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are there membership packages available?</h3>
+                    <p>Yes, we offer various membership packages tailored to different needs and budgets. Contact us for detailed pricing.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How quickly will I see results?</h3>
+                    <p>Results vary based on individual circumstances. Most clients see noticeable improvements within 4-6 weeks with consistent effort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 HealthHub. All rights reserved.</p>
+            <p>Your Health is Our Priority | Making Wellness Accessible to Everyone</p>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const formMessage = document.getElementById('formMessage');
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            
+            // Display success message
+            formMessage.textContent = `Thank you, ${name}! Your message has been received. We'll get back to you at ${email} soon.`;
+            formMessage.style.display = 'block';
+            formMessage.style.color = '#27ae60';
+            
+            // Reset form
+            document.querySelector('.contact-form').reset();
+            
+            // Hide message after 5 seconds
+            setTimeout(() => {
+                formMessage.textContent = '';
+                formMessage.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

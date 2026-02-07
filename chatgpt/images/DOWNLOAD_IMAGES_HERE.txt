@@ -1,0 +1,70 @@
+IMAGES FOLDER GUIDE
+===================
+
+Place your fitness-related images here.
+
+RECOMMENDED FREE IMAGE SOURCES (No login required):
+
+1. UNSPLASH.COM
+   - Visit: https://unsplash.com/
+   - Search: "fitness", "gym workout", "yoga", "health"
+   - Download images for personal/commercial use
+   - Suggested images:
+     * hero-image.jpg (1200x600px) - Person exercising
+     * gym-interior.jpg - Gym setting with equipment
+     * trainer-photo.jpg (300x300px) - Personal trainer
+     * yoga-class.jpg - Yoga session
+     * healthy-food.jpg - Nutrition/diet
+
+2. PEXELS.COM
+   - Visit: https://www.pexels.com/
+   - Search: "fitness workout health"
+   - Free, no attribution needed
+   - Good quality images
+
+3. PIXABAY.COM
+   - Visit: https://pixabay.com/
+   - Search: "gym exercise training"
+   - Free for commercial use
+   - Excellent image quality
+
+RECOMMENDED IMAGE SIZES:
+
+- Hero Image: 1200x600px or wider
+- Team Member Photos: 300x300px
+- Facility Photos: 400x300px
+- Testimonial Images: 100x100px
+
+NAMING CONVENTION:
+
+Use clear descriptive names:
+- hero-image.jpg
+- team-john-smith.jpg
+- facility-gym.jpg
+- facility-yoga.jpg
+- facility-pool.jpg
+- trainer-lisa.jpg
+- trainer-maria.jpg
+
+HOW TO USE IN HTML:
+
+<img src="images/hero-image.jpg" alt="Description">
+
+STEP-BY-STEP INSTRUCTIONS:
+
+1. Go to unsplash.com or pexels.com
+2. Search for fitness-related keywords
+3. Download the free image
+4. Right-click → Rename to match your needs
+5. Move to this "images" folder
+6. Update the HTML files to reference the images
+7. Refresh your browser to see changes
+
+Example updated HTML:
+OLD: <div class="hero-image"><svg>...</svg></div>
+NEW: <div class="hero-image"><img src="images/hero-image.jpg" alt="Fitness person"></div>
+
+The website currently uses emoji and SVG graphics as placeholders.
+These can be replaced with actual photos once images are downloaded.
+
+Have fun building your fitness website! 💪
